@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+   <action name="user" class="cn.com.user.action.UserAction">
+        <result name="index">layout/index.jsp</result>
+        <result name="login">index.jsp</result>
+        <result name="user_list">sys/userList.jsp</result>
+   </action>
+   <action name="menu" class="cn.com.sys.action.MenuAction">
+        <result name="list">menuList.jsp</result>
+        <result name="add_init">addMenu.jsp</result>
+        <result name="edit_init">editMenu.jsp</result>
+   </action>
+   <action name="role" class="cn.com.role.action.RoleAction">
+       <result name="list">role/roleList.jsp</result>
+       <result name="edit_init">role/editRole.jsp</result>
+   </action>
+</actions>

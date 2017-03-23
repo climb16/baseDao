@@ -1,0 +1,37 @@
+.menu-center{
+    border-top: 0;
+    border-left: 0;
+    border-bottom: 0;
+    padding-top: 4px;
+    padding-left: 6px;
+}
+.menu-top{
+    border-top: 0;
+    border-left: 0;
+    padding-left: 4px;
+    height:23px;
+    cursor: pointer;
+    color: #000000;
+    background-color : #ffffff;
+}
+.menu-top:hover{
+    background-color :#E0ECFF;
+}
+
+.menu-sep1{
+    border-top: 1px solid #95B8E7;
+    margin: 1px 0px 1px 0px;
+    font-size: 1px;
+}
+
+#rMenu {
+    position:absolute;
+    width:60px;
+    padding: 1px;
+    border: 1px solid #95B8E7;
+    visibility:hidden;
+    background-color:#E0ECFF;
+    text-align: center;
+    cursor: pointer;
+}
+

@@ -1,0 +1,29 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="baseDao:war">
+    <output-path>$PROJECT_DIR$/classes/artifacts/baseDao_war</output-path>
+    <root id="archive" name="baseDao_war.war">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="baseDao" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/WebRoot/WEB-INF/lib/commons-beanutils-1.8.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WebRoot/WEB-INF/lib/commons-collections-3.2.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WebRoot/WEB-INF/lib/commons-lang-2.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WebRoot/WEB-INF/lib/commons-logging-1.1.1.jar" />
+          <element id="library" level="module" name="dom4j-1.6.1.jar" module-name="baseDao" />
+          <element id="file-copy" path="$PROJECT_DIR$/WebRoot/WEB-INF/lib/ezmorph-1.0.6.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WebRoot/WEB-INF/lib/json-lib-2.4-jdk15.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WebRoot/WEB-INF/lib/jstl.jar" />
+          <element id="library" level="module" name="mysql-connector-java-5.1.26-bin.jar" module-name="baseDao" />
+          <element id="file-copy" path="$PROJECT_DIR$/WebRoot/WEB-INF/lib/poi.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WebRoot/WEB-INF/lib/standard.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WebRoot/WEB-INF/lib/bcprov-ext-jdk15on-151.jar" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="baseDao/web/Web" />
+      <element id="module-output" name="baseDao" />
+      <element id="dir-copy" path="$PROJECT_DIR$/WebRoot" />
+    </root>
+  </artifact>
+</component>
